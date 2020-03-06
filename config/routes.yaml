@@ -1,0 +1,13 @@
+home:
+  path: /
+  controller: Application\Controller\NotFoundController::exception
+  methods: GET
+
+users:
+  path: /users
+  controller: Application\Controller\UsersController::index
+  methods: GET
+
+not_found:
+  path: /*
+  controller: Application\Controller\NotFoundController::exception

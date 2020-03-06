@@ -1,0 +1,30 @@
+{
+    "name": "seojtix/mapreducetest",
+    "type": "project",
+    "description": "Test work for Salary Board",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Johny Shardikov",
+            "email": "seojtix@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5",
+        "symfony/routing": "^5.1@dev",
+        "symfony/dotenv": "^5.0",
+        "symfony/error-handler": "^5.0",
+        "symfony/http-foundation": "^5.1@dev",
+        "symfony/http-kernel": "^5.1@dev",
+        "symfony/config": "^5.1@dev",
+        "symfony/yaml": "^5.1@dev",
+        "amphp/parallel-functions": "dev-master",
+        "league/pipeline": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
