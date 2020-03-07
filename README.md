@@ -23,7 +23,7 @@ wget http://localhost:8888/users?q=rockstardev
 ## Run tests
 
 ```sh
-docker-compose exec php /code/vendor/bin/phpunit
+docker-compose exec php /code/vendor/bin/phpunit /code/tests
 ```
 
 ## Author
