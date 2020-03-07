@@ -21,7 +21,7 @@ class GithubApiFactory {
             curl_setopt($ch, CURLOPT_URL, $url);
             curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
             curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 1);
-            curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36');
+            curl_setopt($ch, CURLOPT_USERAGENT, 'SalaryBoard curl');
             curl_setopt($ch, CURLOPT_USERPWD, $token);
             curl_setopt($ch, CURLOPT_HTTPAUTH, CURLAUTH_BASIC);
             $content = curl_exec($ch);
